@@ -31,9 +31,9 @@ install_requires = [
 ]
 
 setup(
-    name='docker-parse',
+    name='openvpn2alidns',
     version=find_version("openvpn2alidns", "__init__.py"),
-    description='Parse docker-run options from a running Docker container',
+    description='Convert OpenVPN Clients Configuration to Aliyun DNA Record',
     url='https://github.com/genee-projects/openvpn2alidns',
     author="Jia Huang",
     author_email="iamfat@gmail.com",
@@ -45,7 +45,7 @@ setup(
         'Topic :: Utilities',
         'License :: OSI Approved :: MIT License',
     ],
-    keywords='docker parse run options',
+    keywords='openvpn aliyun',
     packages=find_packages(exclude=['tests.*', 'tests']),
     install_requires=install_requires,
     entry_points={
