@@ -1,0 +1,8 @@
+[alidns]
+accessKey=
+accessSecret=
+regionId=cn-hangzhou
+productName=Alidns
+serviceAddr=alidns.aliyuncs.com
+domainName=genee.cn
+rrSuffix=server
