@@ -26,8 +26,8 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 install_requires = [
-    # 'aliyun-python-sdk-alidns'
-    'aliyun-python-sdk-core'
+    'aliyun-python-sdk-alidns'
+    # 'aliyun-python-sdk-core'
 ]
 
 setup(

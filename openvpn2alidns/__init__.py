@@ -20,7 +20,7 @@ from aliyunsdkalidns.request.v20150109 import AddDomainRecordRequest
 from aliyunsdkalidns.request.v20150109 import UpdateDomainRecordRequest
 from aliyunsdkalidns.request.v20150109 import DescribeDomainRecordsRequest
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 class Client:
     
